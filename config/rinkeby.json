@@ -1,13 +1,13 @@
 {
   "network": "rinkeby",
-  "address_projects": "0x34A1d33e49907ADFE05fb4E21411a06a8c4300eE",
-  "startBlock_projects": 9115779,
-  "address_terminalV1": "0x9A5EbE744DF7B66E8Bdd41DB8d6C52073556eD93",
-  "startBlock_terminalV1": 9115779,
-  "address_terminalV1_1": "0xE7432E80A75F957121Cb523BA842Db27C6C25F69",
-  "startBlock_terminalV1_1": 9115779,
-  "address_ticketBooth": "0x0d038636a670E8bd8cF7D56BC4626f2a6446cF11",
-  "startBlock_ticketBooth": 9115779,
+  "address_projects": "0x39f04B692Cd643532C4330B5996472d892733301",
+  "startBlock_projects": 10229793,
+  "address_terminalV1": "0x7f9b739DF9318F628D64DD19db7787D47e929038",
+  "startBlock_terminalV1": 10299940,
+  "address_terminalV1_1": "0xe008ca527a600e883B3149f8556F2d1587bA877f",
+  "startBlock_terminalV1_1": 10247304,
+  "address_ticketBooth": "0xF7f79B4af6f349B065f4953F1cf9C57637Df25aa",
+  "startBlock_ticketBooth": 10229820,
   "erc20s": [
     {
       "symbol": "RDAO",

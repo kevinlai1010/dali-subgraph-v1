@@ -4,10 +4,9 @@
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
-    "prepare:mainnet": "node scripts/prepareERC20s.js mainnet && mustache config/mainnet.json subgraph.template.yaml > subgraph.yaml && yarn codegen",
+    "deploy": "graph auth  --studio b4fb8b3c293047147660a3d4a8f60f38 && graph deploy --studio dali",
     "prepare:rinkeby": "node scripts/prepareERC20s.js rinkeby && mustache config/rinkeby.json subgraph.template.yaml > subgraph.yaml && yarn codegen",
-    "deploy:mainnet": "yarn prepare:mainnet && graph deploy --studio juicebox",
-    "deploy:rinkeby": "yarn prepare:rinkeby && graph deploy --node https://api.studio.thegraph.com/deploy/ juicebox-dev-rinkeby"
+    "deploy:rinkeby": "yarn prepare:rinkeby && graph deploy --node https://api.studio.thegraph.com/deploy/ daliproject"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.22.1",

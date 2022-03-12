@@ -1,5 +1,5 @@
 specVersion: 0.0.4
-description: Juicebox protocol on {{network}}
+description: Dali protocol on {{network}}
 features:
   - fullTextSearch
 schema:
